@@ -1,5 +1,5 @@
 {
-  "name": "postmark-cli",
+  "name": "@carvertical/postmark-cli",
   "version": "1.6.19",
   "description": "A CLI tool for managing templates, sending emails, and fetching servers on Postmark.",
   "main": "./dist/index.js",
@@ -70,7 +70,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/activecampaign/postmark-cli.git"
+    "url": "git+https://github.com/carVertical/postmark-cli.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "MIT",

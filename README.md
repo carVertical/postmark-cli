@@ -1,3 +1,8 @@
+## Fork notes
+
+Forked from https://github.com/ActiveCampaign/postmark-cli, because the original package had pagination issues. Pushed
+to Github's package registry as `@carvertical/postmark-cli` _manually_ with `npm publish`.
+
 <h1 align="center">
   <img src="./media/header@2x.png" width="100%" style="max-width:1230px;" alt="Postmark CLI">
 </h1>
