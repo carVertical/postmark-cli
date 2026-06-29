@@ -94,5 +94,9 @@
     "templates",
     "email",
     "transactional"
-  ]
+  ],
+  "overrides": {
+    "form-data": ">=4.0.6",
+    "shell-quote": ">=1.8.4"
+  }
 }
