@@ -4,7 +4,7 @@
   "description": "A CLI tool for managing templates, sending emails, and fetching servers on Postmark.",
   "main": "./dist/index.js",
   "dependencies": {
-    "@inquirer/prompts": "^3.0.2",
+    "@inquirer/prompts": "^8.7.3",
     "chalk": "^2.4.2",
     "consolidate": "^1.0.0",
     "debug": "^4.3.4",
@@ -31,8 +31,9 @@
     "@types/express": "^4.17.0",
     "@types/fs-extra": "^5.0.5",
     "@types/lodash": "^4.14.123",
-    "@types/mocha": "^9.1.0",
+    "@types/mocha": "^10.0.10",
     "@types/nconf": "^0.10.0",
+    "@types/node": "^20.19.0",
     "@types/sinon": "^10.0.16",
     "@types/table": "^4.0.5",
     "@types/traverse": "^0.6.32",
@@ -45,13 +46,13 @@
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^9.1.0",
     "execa": "^1.0.0",
-    "mocha": "^9.1.4",
+    "mocha": "^12.0.3",
     "nconf": "^0.11.4",
     "pre-commit": "^1.2.2",
     "prettier": "^3.2.4",
     "sinon": "^17",
     "ts-node": "^8.0.3",
-    "typescript": "^4.5.5"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "start:dev": "watch 'npm run build' ./src ./preview",
@@ -94,9 +95,5 @@
     "templates",
     "email",
     "transactional"
-  ],
-  "overrides": {
-    "form-data": ">=4.0.6",
-    "shell-quote": ">=1.8.4"
-  }
+  ]
 }
